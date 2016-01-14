@@ -1,0 +1,41 @@
+header {
+    background-color: #244751;
+    color: #e8fdff;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
+
+.comment-count:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    border: none;
+}
+
+a:hover {
+    border: 5px solid gray;
+}
+
+a:active {
+    border: 5px solid red;
+}
+
+h2 {
+    font-family: Lora;
+}
