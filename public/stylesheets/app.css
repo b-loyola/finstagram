@@ -28,14 +28,26 @@ a:link {
     border: none;
 }
 
-a:hover {
-    border: 5px solid gray;
-}
-
-a:active {
-    border: 5px solid red;
+#title {
+    margin-left: 1em;
 }
 
 h2 {
     font-family: Lora;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.button {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+}
+
+.form-errors {
+    color: red;
 }
