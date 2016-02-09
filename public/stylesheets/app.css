@@ -24,9 +24,9 @@ main {
     text-decoration: underline;
 }
 
-a:link {
-    border: none;
-}
+/*a:link {*/
+/*    border: none;*/
+/*}*/
 
 #title {
     margin-left: 1em;

@@ -1,0 +1,13 @@
+<header>
+    <h1 id="title">Finstagram</h1>
+    <div class="login-info">
+        <%= @logout_message if @logout_message %> 
+        <% if current_user %>
+            <%= current_user.username %> | 
+            <a href="/logout">Log out</a>
+        <% else %>
+            <a href="/login">Log in</a> | 
+            <a href="/signup">Sign up</a>
+        <% end %>
+    </div>
+</header>

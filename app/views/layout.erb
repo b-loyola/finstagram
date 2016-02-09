@@ -9,6 +9,28 @@
         <title>Finstagram</title>
     </head>
     <body>
-        <%= yield %>
+        
+        <header>
+            <h1 id="title">
+                <a href="/">Finstagram</a>
+            </h1>
+            <div class="login-info">
+                <%= @logout_message if @logout_message %> 
+                <% if current_user %>
+                    <%= current_user.username %> | 
+                    <a href="/logout">Log out</a>
+                <% else %>
+                    <a href="/login">Log in</a> | 
+                    <a href="/signup">Sign up</a>
+                <% end %>
+            </div>
+        </header>
+        
+        <main role="main">
+            
+            <%= yield %>
+            
+        </main>
+        
     </body>
 </html>
